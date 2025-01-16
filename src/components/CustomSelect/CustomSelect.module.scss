@@ -1,0 +1,31 @@
+.customSelect {
+  & label {
+    color: black;
+    display: block;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+  }
+  & select {
+    background: #e6e6e6;
+    border-radius: 10px;
+    width: 300px;
+    padding: 5px 10px;
+    color: black;
+    height: 30px;
+  }
+
+  @media (max-width: 1300px) {
+  }
+  @media (max-width: 992px) {
+    & select {
+      width: 200px;
+    }
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+
+    & select {
+      width: 100%;
+    }
+  }
+}
